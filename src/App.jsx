@@ -6,6 +6,7 @@ import { useEffect } from 'react';
 import Modal from './components/Modal';
 
 const url = 'https://course-api.com/react-useReducer-cart-project';
+
 function App() {
   const dispatch = useDispatch();
   const { cartItems, isLoading } = useSelector((store) => store.cart);
